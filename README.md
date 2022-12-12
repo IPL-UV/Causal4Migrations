@@ -7,7 +7,8 @@ Human displacement is often linked to climate change not without reason: the inc
 
 # Results
 
-![image](Motivational_Figure_IDP_Somalia.pdf)
+![image](Motivational_Figure_IDP_Somalia.png)
+
 Pipeline overview to understand internal displacement through causal discovery. Total number and percentage of new displacements attributed to droughts and conflicts in Somalia during the years 2010-2022 (a). The three selected Somalia districts included in the study (Baidoa, Diinsoor, Qoryooley) are analyzed between $2010-2022$ with environmental (precipitation), socioeconomic (food, livestock, and water prices), and conflict drivers (fatalities) (b). Preprocessing of the time series and the application of conditional independence tests, we derive causal graphs per district with the PCMCI method (c).
 
 # Data and code availability

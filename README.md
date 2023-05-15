@@ -19,13 +19,12 @@ All the analysis was performed in python.
 If you find this useful, consider citing our work:
 
 ><b>Causal discovery of drought-induced human displacement drivers</b>
-José María Tárraga, Gustau Camps-Valls, Maria Piles, Eva Sevillano-Marco, Michele Ronco, María Teresa Miranda, Qiang Wang, Jordi Cerdà and Jordi Muñoz, 
-Science Advances, 2023
+José María Tárraga, Gustau Camps-Valls, Maria Piles, Eva Sevillano-Marco, Michele Ronco, María Teresa Miranda, Qiang Wang, Jordi Cerdà and Jordi Muñoz, 2023
 
 ```
-@article {Tarraga2022,
+@article {Tarraga2023,
   author = {Tárraga, J.M and Camps-Valls, G. and Piles, M. and Sevillano-Marco, E. and Ronco, M. and Miranda, M.T. and Wang, Q. and Cerdà, J. and Muñoz, J.},
-  title = {Causal discovery of drought-induced human displacement drivers},
+  title = {Causal discovery reveals contrasting mechanisms of drought-induced displacement in Somalia},
   volume = {},
   number = {},
   year = {2023},

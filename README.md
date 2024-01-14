@@ -18,7 +18,7 @@ All the analysis was performed in python, data and code are fully available unde
 If you find this useful, consider citing our work:
 
 ><b>Causal discovery reveals complex patterns of drought-induced displacement</b>
-José María Tárraga, Gustau Camps-Valls, Maria Piles, Eva Sevillano-Marco, Michele Ronco, María Teresa Miranda, Vasileios Sitokonstantinou, Jordi Cerdà and Jordi Muñoz, 2023
+José María Tárraga,  Eva Sevillano-Marco, Jordi Muñoz, Maria Piles, Vasileios Sitokonstantinou, Michele Ronco, María Teresa Miranda, Jordi Cerdà and Gustau Camps-Valls, 2023
 
 ```
 @article {Tarraga2023,

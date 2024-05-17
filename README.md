@@ -13,7 +13,7 @@ Pipeline overview to understand internal displacement through causal discovery. 
 
 All the analysis was performed in python, data and code are fully available under this repository.
 
-To run the code and replicate our papers results run the [jupyter notebook](https://github.com/IPL-UV/Causal4Migrations/blob/main/Causal_Discovery_Drought_induced_Displacement.ipynb)
+To run the code and replicate our the results in the paper run the [jupyter notebook](https://github.com/IPL-UV/Causal4Migrations/blob/main/Causal_Discovery_Drought_induced_Displacement.ipynb)
 
 # How to cite our work
 

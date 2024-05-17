@@ -20,7 +20,7 @@ To run the code and replicate our the results in the paper run the [jupyter note
 If you find this useful, consider citing our work:
 
 ><b>Causal discovery reveals complex patterns of drought-induced displacement</b>
-José María Tárraga,  Eva Sevillano-Marco, Jordi Muñoz, Maria Piles, Vasileios Sitokonstantinou, Michele Ronco, María Teresa Miranda, Jordi Cerdà and Gustau Camps-Valls, 2023
+José María Tárraga,  Eva Sevillano-Marco, Jordi Muñoz, Maria Piles, Vasileios Sitokonstantinou, Michele Ronco, María Teresa Miranda, Jordi Cerdà and Gustau Camps-Valls, 2024
 
 ```
 @article {Tarraga2024,

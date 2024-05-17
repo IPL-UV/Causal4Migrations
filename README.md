@@ -21,12 +21,12 @@ If you find this useful, consider citing our work:
 José María Tárraga,  Eva Sevillano-Marco, Jordi Muñoz, Maria Piles, Vasileios Sitokonstantinou, Michele Ronco, María Teresa Miranda, Jordi Cerdà and Gustau Camps-Valls, 2023
 
 ```
-@article {Tarraga2023,
+@article {Tarraga2024,
   author = {Tárraga, J.M and Sevillano-Marco, E. and Muñoz, J. and Piles, M. and Sitokonstantinou, V. and Ronco, M. and Miranda, M.T. and Cerdà, J. and Camps-Valls, G.},
   title = {Causal discovery reveals complex patterns of drought-induced displacement},
   volume = {},
   number = {},
-  year = {2023},
+  year = {2024},
   doi = {},
   publisher = {},
   URL = {},

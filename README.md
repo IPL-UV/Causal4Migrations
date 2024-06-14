@@ -13,7 +13,9 @@ Pipeline overview to understand internal displacement through causal discovery. 
 
 All the analysis was performed in python, data and code are fully available under this repository.
 
-To run the code and replicate our the results in the paper run the [jupyter notebook](https://github.com/IPL-UV/Causal4Migrations/blob/main/Causal_Discovery_Drought_induced_Displacement.ipynb)
+The instructions to run the code and replicate the results of our the paper are specified in the [Causal Discovery jupyter notebook](https://github.com/IPL-UV/Causal4Migrations/blob/main/Causal_Discovery_Drought_induced_Displacement.ipynb)
+All the causal inference methods and experiments are under the [methods folder]([url](https://github.com/IPL-UV/Causal4Migrations/tree/main/methods)).
+The code used to download and build the socioeconomic and Earth Observation datacube can be found under the [datacube_creation folder]([url](https://github.com/IPL-UV/Causal4Migrations/tree/main/datacube_creation))
 
 # How to cite our work
 

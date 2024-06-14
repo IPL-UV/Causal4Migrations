@@ -109,24 +109,43 @@ def compare_methods(data: pd.DataFrame, tau_min: int, tau_max: int, alpha_level:
 
 
 
-def linear_regression_coefficients(DATA_graph, max_lag=10):
+def linear_regression_coefficients(DATA_graph: pd.DataFrame, max_lag: int = 10) -> pd.DataFrame:
+    """
+    Perform linear regression on the given data with specified maximum lag.
+
+    Parameters:
+    DATA_graph (pd.DataFrame): The input data frame containing the time series data.
+    max_lag (int): The maximum lag to be considered for the regression. Default is 10.
+
+    Returns:
+    pd.DataFrame: A data frame containing the coefficients, p-values, and R-squared values of the regression model.
+    """
+    # Replace spaces in column names with underscores
     DATA_graph.columns = DATA_graph.columns.str.replace(' ', '_')
 
-    data_regression = (DATA_graph - DATA_graph.min()) / (DATA_graph.max() - DATA_graph.min())
+    # Normalize the data
+    data_regression: pd.DataFrame = (DATA_graph - DATA_graph.min()) / (DATA_graph.max() - DATA_graph.min())
 
+    # Create lagged columns
     for column in data_regression.columns[1:]:
         for lag in range(1, max_lag + 1):
             data_regression[f'{column}_lag{lag}'] = data_regression[column].shift(lag)
 
+    # Drop rows with missing values
     data_regression = data_regression.dropna()
 
-    formula = 'IDP_Drought ~ ' + ' + '.join([f'{column}' for column in data_regression.columns[6:]])
+    # Define the formula for the regression model
+    formula: str = 'IDP_Drought ~ ' + ' + '.join([f'{column}' for column in data_regression.columns[6:]])
 
+    # Fit the regression model
     model = smf.ols(formula, data=data_regression).fit()
 
-    R2 = model.rsquared
+    # Get the R-squared value
+    R2: float = model.rsquared
 
-    results = pd.DataFrame({'coefficients': model.params, 'pvalues': model.pvalues, 
-                        'R-squared': [R2]*len(model.params)})
+    # Create a data frame with the results
+    results: pd.DataFrame = pd.DataFrame({'coefficients': model.params, 'pvalues': model.pvalues, 
+                                          'R-squared': [R2]*len(model.params)})
 
+    # Return the results with p-values less than 0.05
     return results[results['pvalues'] < 0.05]

@@ -7,13 +7,10 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from io import BytesIO
 from datetime import datetime, date
-from isoweek import Week
-
 
 ##### These functions fetch the data from APIs and websites  ########
 
 ######## FETCH UPDATED ACLED DATA #############
-
 def fetch_latest_ACLED():
 
     key = ''

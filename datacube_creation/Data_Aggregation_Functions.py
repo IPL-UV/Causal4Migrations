@@ -54,7 +54,6 @@ def correct_regions(df_region):
     return df_region.replace(regions)
 
 
-
 # Market Data Cleaning: CHOOSE BEST MARKET IN SHAPEFILE
 
 def aggregate_best_market(market_dataframe, agg_level):
